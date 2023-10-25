@@ -4,11 +4,13 @@ import {FiMail,
 FiLinkedin,
 FiGithub,
 FiInstagram } from "react-icons/fi"
+import {SiLeetcode} from "react-icons/si";
 const Socials = () => {
   return (
     <SocialsContainer>
     <a href="https://www.linkedin.com/in/nitish9999/" target='_blank' rel="noreferrer"  className="social"><FiLinkedin /></a>
     <a href="https://github.com/Nitish-hack" className="social" target='_blank' rel="noreferrer"><FiGithub /></a>
+    <a href="https://leetcode.com/Nitish_jha/" className="social" target='_blank' rel="noreferrer"><SiLeetcode /></a>  
     <a href="https://www.instagram.com/__nitish.jha/" className="social" target='_blank' rel="noreferrer"><FiInstagram /></a>
     <a href="mailto:nitishjha913@gmail.com" className="social" target='_blank' rel="noreferrer"><FiMail /></a>
     </SocialsContainer>
