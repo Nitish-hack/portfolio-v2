@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0a192f;
+  color: white;
+  display: flex;
+  justify-content: center;
+ 
+}
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #00ffffd0;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #00ffff;
+}
+
+.app {
+  width: 90vw;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .maincontainer {
+    width: 80%;
+  }
+}
