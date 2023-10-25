@@ -76,7 +76,7 @@ function Navbar() {
         >
           Contact
         </Link>
-       {!isMobile && <Button href="https://drive.google.com/file/d/1BIhX2EwJzVwbEjE87b-v8E9vAsigsJ3o/view" target="_blank">Resume</Button>}
+       {!isMobile && <Button href="https://drive.google.com/file/d/1QK7yPTA_gwaI8-ZjBWzOUjU9x30cBwZI/view" target="_blank">Resume</Button>}
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
